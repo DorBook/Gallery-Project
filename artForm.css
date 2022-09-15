@@ -1,0 +1,6 @@
+.artForm {
+  position: absolute;
+  flex-direction: column;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}/*# sourceMappingURL=artForm.css.map */
