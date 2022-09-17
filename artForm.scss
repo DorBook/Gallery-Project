@@ -1,5 +1,21 @@
 .artForm{
-    position: absolute;
-    flex-direction:column;
+    text-align: center;
+    align-items: center;
     column-gap: 30px;
+    .toggle-submit{
+        h3{
+            color: palevioletred;
+        }
+    } img{
+        width: 50px;
+        height: 50px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .artForm{
+    display: none;
+    .toggle-submit img{
+        display: flex;
+    }
+}
 }

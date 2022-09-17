@@ -6,7 +6,7 @@
     <link href="./backgroundStyle.css" rel="stylesheet">
     <link href="./navStyle.css" rel="stylesheet">
     <link href="./galleryStyle.css" rel="stylesheet">
-    <link href="./artStyle.css" rel="stylesheet">
+    <link href="./artForm.css" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -30,6 +30,30 @@
                 <p>YT</p>
             </div>
     </nav>
+    <form class ="artForm">
+        <!-- <h3> Upload your art!</h3>
+        <a class="toggle-submit">
+            <img src="./projectImages/arrowmenu.png">
+        </a> -->
+        <div>
+            <label for="artName">Art name</label>
+            <br>
+            <input id="artName" type="text" required></input>
+        </div>
+        <div>
+            <label for="artDesc">Art Description</label>
+            <br>
+            <input id="artDesc" type="text" required></input>
+        </div>
+        <div>
+            <label for="artLink">Import Art</label>
+            <br>
+            <input id="artLink" type="text" required></input>
+        </div>
+        <div class="sub">
+            <input type="submit" value="Publish Art" >
+        </div>
+    </form>
     <div class="container">
         <div class="art">
             <h1> Three Musicians</h1>
@@ -77,20 +101,6 @@
             <p>Using the unique technique of pointillism, creating a complete image that is made up of only distinct individual dots, the French painter Georges Seurat brings us his most famous piece A Sunday Afternoon on the Island of La Grande Jatte. </p>
         </div>
     </div>
-    <form class="artForm">
-        <div>
-            <label for="artName">Art name</label>
-            <input id="artName" type="text" required></input>
-        </div>
-        <div>
-            <label for="artDesc">Art Description</label>
-            <input id="artDesc" type="text" required></input>
-        </div>
-        <div>
-            <label for="artLink">Import Art</label>
-            <input id="artLink" type="text" required></input>
-        </div>
-    </form>
     <script src="navScript.js"></script>
 </body>
 </html>

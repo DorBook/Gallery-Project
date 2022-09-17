@@ -3,17 +3,19 @@
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
-    max-height: 1500px;
+    max-height: 2500px;
     max-width: 2500px;
     height: 100%;
     width: 100%;
 
     .art{
-
+        
         max-width: 27%;
         max-height: 27%;
         text-align: center;
         padding: 1% ;
+        h1{ font-size: 30px;
+        }
         img{
             height: 500px;
             width: 500px;
@@ -31,7 +33,6 @@
 }
 @media screen and (max-width: 1200px){
     .container{
-    // padding-top: 3.9%;
 
         .art{
             max-width: 47%;
@@ -44,8 +45,6 @@
 }
 @media screen and (max-width: 800px){
     .container{
-    // padding-top: 4.4%;
-
         .art{
             max-width: 97%;
             max-height: 97%;

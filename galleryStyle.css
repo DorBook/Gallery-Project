@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  max-height: 1500px;
+  max-height: 2500px;
   max-width: 2500px;
   height: 100%;
   width: 100%;
@@ -13,6 +13,9 @@
   max-height: 27%;
   text-align: center;
   padding: 1%;
+}
+.container .art h1 {
+  font-size: 30px;
 }
 .container .art img {
   height: 500px;
