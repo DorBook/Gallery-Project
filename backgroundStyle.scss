@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+* {
+    font-family: Raleway;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    background-color: rgb(212, 205, 205);
+}
+.navbar{
+.logo h1{
+    font-family: Ms Madi, cursive;
+    font-size: 30px;
+    color: rgb(218, 165, 32);
+}
+  h1:hover{
+    cursor: default;
+}
+}

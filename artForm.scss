@@ -1,5 +1,47 @@
  .artForm{
+    
     text-align: center;
     align-items: center;
-    column-gap: 30px;
+    padding: 15px 25px 15px 0;
+    color: black;
+    input{
+        text-align: center;
+        padding: 5px;
+        }
+    .sub{
+        padding: 10px;
+    }
+    div{
+        padding: 2.5px;
+    }  
+}
+.toggle-form{
+    display: flex;
+    justify-content: center;
+   
+    h2{
+            padding: 10px;
+            display: none;
+            color: rgba(218, 165, 32, 0.458);
+    }
+}
+
+
+
+@media screen and (max-width: 700px){
+.artForm{
+    display: none;
+    margin-left: 30px;
+}
+.artForm.active{
+    display: list-item;
+    list-style: none;
+
+}
+.toggle-form h2{
+    display: flex;
+}
+.toggle-form:hover{
+    cursor: pointer;
+}
 }

@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap");
 .navbar {
-  background-color: darkkhaki;
+  background-color: palevioletred;
   color: whitesmoke;
   padding: 15px;
   display: flex;
@@ -16,7 +17,7 @@
 }
 .buttons ul li:hover {
   cursor: pointer;
-  background-color: grey;
+  background-color: crimson;
   opacity: 35%;
   transition-duration: 0.3s;
 }

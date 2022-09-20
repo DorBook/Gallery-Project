@@ -1,4 +1,5 @@
 const toggleMenu = document.getElementsByClassName('toggle-menu')[0]
+const toggleForm = document.getElementsByClassName('toggle-form')[0]
 const buttons = document.getElementsByClassName('buttons')[0]
 const links = document.getElementsByClassName('links')[0]
 
@@ -7,8 +8,13 @@ toggleMenu.addEventListener("click", () =>{
     buttons.classList.toggle("active")
     links.classList.toggle("active")
 })
+
+
 let form = document.getElementsByClassName("artForm")[0]
 
+toggleForm.addEventListener("click", () =>{
+    form.classList.toggle("active")
+    })
 form.addEventListener("submit", onSubmit)
 
 function onSubmit(ev){
@@ -22,7 +28,7 @@ function addArt(){
     let artLink = document.getElementById("inputLink")
 
     let divCreate = document.createElement("div")
-    let newName = document.createElement("h1")
+    let newName = document.createElement("h2")
     let newDesc = document.createElement("p")
     let newImg = document.createElement("img")
     
@@ -37,15 +43,14 @@ function addArt(){
 
 
     let container =document.getElementsByClassName("container")[0]
-    // let divStyle= getElementsByClassName("art")[0]
-    // divStyle.appendChild(divCreate)
+  
     container.appendChild(divCreate)
 
-    
-    let add = artName.value
-    artName=""
-    artDesc=""
-    return add
+    let art = addArt.value
+    artLink.value = ""
+    artDesc.value = ""
+    artName.value = ""
+    return art
 }
 
 
