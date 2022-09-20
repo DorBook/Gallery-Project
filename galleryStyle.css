@@ -3,43 +3,49 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  max-height: 2500px;
-  max-width: 2500px;
+  max-height: 5000px;
+  max-width: 5000px;
   height: 100%;
   width: 100%;
 }
-.container .art {
+.container div {
   max-width: 27%;
   max-height: 27%;
   text-align: center;
   padding: 1%;
 }
-.container .art h1 {
-  font-size: 30px;
+.container div h1 {
+  font-size: 20px;
 }
-.container .art img {
+.container div img {
   height: 500px;
   width: 500px;
   max-width: 100%;
   max-height: 100%;
 }
-
-.art:hover {
+.container div:hover {
   cursor: default;
   background-color: whitesmoke;
   opacity: 90%;
   transition: 0.3s;
 }
 
-@media screen and (max-width: 1200px) {
-  .container .art {
+@media screen and (max-width: 1300px) {
+  .container div {
     max-width: 47%;
     max-height: 47%;
   }
+  .container div p {
+    max-width: 611px;
+  }
 }
 @media screen and (max-width: 800px) {
-  .container .art {
+  .container div {
     max-width: 97%;
     max-height: 97%;
+  }
+  .container div p {
+    max-width: 600px;
+    min-width: 600px;
   }
 }/*# sourceMappingURL=galleryStyle.css.map */

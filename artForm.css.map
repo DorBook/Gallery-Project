@@ -1,1 +1,1 @@
-{"version":3,"sources":["artForm.scss","artForm.css"],"names":[],"mappings":"AAAA;EACI,kBAAA;EACA,mBAAA;EACA,qBAAA;OAAA,gBAAA;ACCJ;ADCQ;EACI,oBAAA;ACCZ;ADCM;EACE,WAAA;EACA,YAAA;ACCR;;ADEA;EACI;IACA,aAAA;ECCF;EDAE;IACI,aAAA;ECEN;AACF","file":"artForm.css"}
+{"version":3,"sources":["artForm.scss","artForm.css"],"names":[],"mappings":"AAAC;EACG,kBAAA;EACA,mBAAA;EACA,qBAAA;OAAA,gBAAA;ACCJ","file":"artForm.css"}
