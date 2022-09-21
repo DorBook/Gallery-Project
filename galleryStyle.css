@@ -33,23 +33,18 @@
 
 @media screen and (max-width: 1300px) {
   .container div {
-    max-width: 47%;
+    min-width: 47%;
     max-height: 47%;
   }
   .container p {
     word-wrap: break-word;
-    max-width: 600px;
-    max-height: 600px;
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 800px) {
   .container div {
     max-width: 97%;
     max-height: 97%;
-  }
-  .container div p {
-    word-wrap: break-word;
-    max-width: 600px;
-    max-height: 600px;
+    min-width: 97%;
   }
 }/*# sourceMappingURL=galleryStyle.css.map */
